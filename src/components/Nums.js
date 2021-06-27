@@ -16,8 +16,8 @@ const Nums = ({selectedNums, toggleNum, cancelNum, clear, cash, randomize}) => {
             {nums.map((item)=>(
                 <Num key = {item} num={item} borderColor = {selectedNums.indexOf(item) != -1 ? "red" : "yellow"} toggleNum = {toggleNum} cancelNum = {cancelNum}/>
             ))}
-            <div className="item" style={{width:"111px", height:"50px", backgroundColor: "yellow", color: "black"}} onClick={cashClicked}>Cash</div>
-            <div className="item" style={{width:"111px", height:"50px", backgroundColor: "yellow", color: "black"}} onClick={clearClicked}>Clear</div>
+            <div className="item" style={{width:"113px", height:"50px", backgroundColor: "yellow", color: "black"}} onClick={cashClicked}>Cash</div>
+            <div className="item" style={{width:"113px", height:"50px", backgroundColor: "yellow", color: "black"}} onClick={clearClicked}>Clear</div>
             <div className="item" style={{width:"170px", height:"50px", backgroundColor: "yellow", color: "black"}} onClick={randClicked}>
                 Random
             </div>

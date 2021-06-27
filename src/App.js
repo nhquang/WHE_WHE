@@ -65,7 +65,7 @@ function App() {
   }
   return (
     <div className="container">
-      <Header />
+      <Header title={"WHE WHE on D' Avenue"} />
       <MoneyValues addValue = {addValue}/>
       <Nums randomize = {randomize} selectedNums = {selectedNums} toggleNum = {toggleNum} cancelNum = {cancelNum} clear = {clear} cash ={cash}/>
       <Results show={showResult} selectedNums = {selectedNums} total = {total}/>

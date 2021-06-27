@@ -1,9 +1,9 @@
 
 
-const Header = () => {
+const Header = ({title}) => {
     return (
         <div className= "header">
-            WHE WHE on D' Avenue
+            {title}
         </div>
     )
 }
